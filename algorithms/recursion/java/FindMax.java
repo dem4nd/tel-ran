@@ -39,7 +39,7 @@ public class FindMax {
   public static void main(String[] args) {
     int[] exampleArray = {4, 7, 9, 2, 15, 14};
 
-    System.out.println("Хвостовая рекурсия: " + findMaxNonTailRec(exampleArray));
-    System.out.println("Нехвостовая рекурсия: " + findMaxTailRec(exampleArray));
+    System.out.println("Хвостовая рекурсия: " + findMaxTailRec(exampleArray));
+    System.out.println("Нехвостовая рекурсия: " + findMaxNonTailRec(exampleArray));
   }
 }
