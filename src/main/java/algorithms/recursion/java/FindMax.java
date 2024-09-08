@@ -1,4 +1,4 @@
-package org.example.recursion;
+package algorithms.recursion.java;
 
 public class FindMax {
 
