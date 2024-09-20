@@ -10,6 +10,16 @@ public class ListsApp {
   // возвращает массив содержащий суммы соответствующих парных элементов
   // Если массивы имею разную длину, недостающие элементы считать равными нулю
 
+  public static int[] arrReverse(int[] inArr) {
+    int[] outArr = // create output array
+
+    for() {
+      // outArr <- inArr
+    }
+
+    return outArr
+  }
+
   public static void main(String[] args) {
 
   }
