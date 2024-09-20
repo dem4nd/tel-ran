@@ -11,16 +11,21 @@ public class ListsApp {
   // Если массивы имею разную длину, недостающие элементы считать равными нулю
 
   public static int[] arrReverse(int[] inArr) {
-    int[] outArr = // create output array
+    int[] outArr = new int[inArr.length];// create output array
 
-    for() {
-      // outArr <- inArr
+    for(int i = inArr.length-1, j = 0;
+        j < outArr.length;
+        i--, j++) {
+      outArr[j] = inArr[i];
     }
 
-    return outArr
+    return outArr;
   }
 
   public static void main(String[] args) {
-
+    int[] testArr = new int[]{6};
+    int[] testResult = arrReverse(testArr);
+    System.out.println(" in:" + java.util.Arrays.toString(testArr));
+    System.out.println("res:" + java.util.Arrays.toString(testResult));
   }
 }
