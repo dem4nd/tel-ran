@@ -8,6 +8,7 @@ public class CollectionsArrayExc2 {
 
   // Пример 1: {2, 7, 17, 56, 9, -5} -> {7, 2, 56, 17, -5, 9}
   // Пример 2: {2, 7, 17, 56, 9} -> {7, 2, 56, 17, 9}
+  // Пример 3: {} -> {}
 
   public static int[] swapPaired(int[] input) {
     // add code here
