@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class CompanyApp {
 
-  // public static void main(String[] args) {
 // Создать класс c информацией о сотруднике (имя: строка, должность:строка,
 // год начала работы: целое)
 
@@ -12,23 +11,6 @@ public class CompanyApp {
 
 // В классе компании сделать два метода - добавить сотрудника (add)
 // и удалить сотрудника (remove)
-//
-//        public static class Employee {
-//
-//        }
-//
-//        public static class Company {
-//
-//        }
-//
-//        public static void main(String[] args) {
-  //  Company c1 = new Company ("Happy Train");
-  //  Company c2 = new Company ("Bubbles");
-
-//        c1.add(new Employee("John", "Dev", 2000));
-//        c1.add(new Employee("Bob", "QA", 2015));
-//        c1.add(new Employee("Julia", "Dev", 2002));
-//        c1.add(new Employee("Liz", "HR", 2007));
 
   public static void printEmployees (ArrayList<Employee> listEmployee){
     for (Employee e: listEmployee) {
