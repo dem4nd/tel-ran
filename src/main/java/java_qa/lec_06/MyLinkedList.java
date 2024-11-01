@@ -1,5 +1,7 @@
 package java_qa.lec_06;
 
+import java.util.List;
+
 public class MyLinkedList {
 
   // Head -> null
@@ -56,8 +58,4 @@ public class MyLinkedList {
   public String look() {
     return "";
   }
-
-  // printAll
-
-  // boolean contains(String)
 }
