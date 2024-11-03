@@ -153,6 +153,21 @@ public class MyLinkedList<E> {
 
   // HW
   boolean insertAfter(E afterValue, E insertedValue) {
-    return true;
+    return false;
+  }
+
+  // HW
+  boolean removeAt(int at) {
+    return false;
+  }
+
+  // HW
+  boolean remove(E removedValue) {
+    return false;
+  }
+
+  // HW+
+  int removeAll(E removedValue) {
+    return 0;
   }
 }
